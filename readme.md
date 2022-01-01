@@ -12,7 +12,9 @@ The app is hosted on heroku. https://still-ravine-52402.herokuapp.com/
 ### Request
 
 Path: /v1/records
+
 Method: Post
+
 Request data should be url-encoded or JSON. All fields are required.
 
 ```
@@ -60,5 +62,5 @@ Note: Application level errors will be handled differently and return 500 respon
 
 # Testing
 
-- To run the tests, simply type `npm test`
-- We can also get code coverage by `npm run coverage`
+- `yarn test or yarn test:watch`
+- `yarn coverage`

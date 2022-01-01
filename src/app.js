@@ -37,6 +37,4 @@ app.use(function (err, req, res, next) {
   }
 });
 
-// todo handle error
-
 module.exports = app;

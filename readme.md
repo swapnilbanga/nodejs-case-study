@@ -12,7 +12,9 @@ The app is hosted on heroku. https://still-ravine-52402.herokuapp.com/
 ### Request
 
 Path: /v1/records
+
 Method: Post
+
 Request data should be url-encoded or JSON. All fields are required.
 
 ```

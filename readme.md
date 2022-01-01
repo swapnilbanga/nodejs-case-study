@@ -60,5 +60,5 @@ Note: Application level errors will be handled differently and return 500 respon
 
 # Testing
 
-- To run the tests, simply type `npm test`
-- We can also get code coverage by `npm run coverage`
+- `yarn test or yarn test:watch`
+- `yarn coverage`

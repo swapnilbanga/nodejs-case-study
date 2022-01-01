@@ -3,6 +3,6 @@ const RecordController = require("../../controllers/record.controller");
 
 const routes = Router();
 
-routes.post("/objects", RecordController.queryObject);
+routes.post("/records", RecordController.queryObject);
 
 module.exports = routes;

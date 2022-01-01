@@ -4,5 +4,5 @@ module.exports = {
     url: process.env.MONGO_URL,
     options: { useNewUrlParser: true, useUnifiedTopology: true },
   },
-  port: process.env.APP_PORT,
+  port: process.env.PORT || 5000,
 };
